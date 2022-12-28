@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "part1_3_가위 바위 보2"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "part1_4_TextRPG1", "part1_4_TextRPG1\part1_4_TextRPG1.vcxproj", "{908CA9D6-159F-4C4B-85DF-1383C6DAE7D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "part1_5_포인터실습", "part1_5_포인터실습\part1_5_포인터실습.vcxproj", "{4722B738-C5BC-4E77-8249-ECFD33019DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{908CA9D6-159F-4C4B-85DF-1383C6DAE7D9}.Release|x64.Build.0 = Release|x64
 		{908CA9D6-159F-4C4B-85DF-1383C6DAE7D9}.Release|x86.ActiveCfg = Release|Win32
 		{908CA9D6-159F-4C4B-85DF-1383C6DAE7D9}.Release|x86.Build.0 = Release|Win32
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Debug|x64.ActiveCfg = Debug|x64
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Debug|x64.Build.0 = Debug|x64
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Debug|x86.Build.0 = Debug|Win32
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Release|x64.ActiveCfg = Release|x64
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Release|x64.Build.0 = Release|x64
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Release|x86.ActiveCfg = Release|Win32
+		{4722B738-C5BC-4E77-8249-ECFD33019DEF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
