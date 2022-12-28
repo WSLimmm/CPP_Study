@@ -40,7 +40,7 @@ void EnterLobby()
 		cout << "패배!" << endl;
 }
 
-// 포인터를 사용하지 않은 함수
+// 포인터를 사용하지 않은 함수 
 StatInfo CreatePlayer()
 {
 	StatInfo ret;
