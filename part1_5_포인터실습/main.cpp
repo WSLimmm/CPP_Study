@@ -11,6 +11,7 @@ struct StatInfo
 void EnterLobby();
 StatInfo CreatePlayer();						// 포인터 사용 x
 void CreateMonster(StatInfo* info);		// 포인터 사용 o
+
 // 플레이어 승리 시 true, 아니면 false
 bool StartBattle(StatInfo* player, StatInfo* monster);
 
