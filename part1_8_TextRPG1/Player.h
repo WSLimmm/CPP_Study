@@ -24,6 +24,7 @@ public:
 
 	}
 
+	virtual void PrintInfo();
 
 protected:
 	int _playerType;
@@ -33,6 +34,7 @@ protected:
 // 클래스가 방대해지면 헤더 파일과 cpp 파일로 따로 구분하는 것이 좋다.
 class Knight : public Player
 {
+public:
 	// Knight 클래스를 호출하면 Player 클래스의 _playerType에 PT_Knight(1)를 저장한다.
 	Knight() : Player(PT_Knight)
 	{
@@ -45,6 +47,7 @@ class Knight : public Player
 
 class Archer : public Player
 {
+public:
 	// Archer 클래스를 호출하면 Player 클래스의 _playerType에 PT_Archer(2)를 저장한다.
 	Archer() : Player(PT_Archer)
 	{
@@ -57,6 +60,7 @@ class Archer : public Player
 
 class Mage : public Player
 {
+public:
 	// Mage 클래스를 호출하면 Player 클래스의 _playerType에 PT_Mage(3)를 저장한다.
 	Mage() : Player(PT_Mage)
 	{

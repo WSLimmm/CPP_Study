@@ -1,11 +1,11 @@
-#include "Player.h"
+#include "Monster.h"
 #include <iostream>
 
 using namespace std;
 
-void Player::PrintInfo()
+void Monster::PrintInfo()
 {
 	cout << "-------------------------------" << endl;
-	cout << "[플레이어 정보] " << "HP: " << _hp << "ATT: " << _attack << "DEF: " << _defence << endl;
+	cout << "[몬스터 정보] " << "HP: " << _hp << "ATT: " << _attack << "DEF: " << _defence << endl;
 	cout << "-------------------------------" << endl;
 }

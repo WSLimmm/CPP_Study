@@ -21,6 +21,12 @@ public:
 
 	}
 
+	virtual void PrintInfo() = 0; // 추상적인 가상함수라는 뜻
+
+	void OnAttacked(Creature* attacker);
+	bool IsDead() { return _hp <= 0; } // 함수가 짧으면 헤더 파일에 구현해도 상관없다.
+
+
 // 외부에서 사용하고 싶다면 get, set 함수를 통해서 가능
 protected:
 	int _creatureType;
